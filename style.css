@@ -50,6 +50,11 @@ header nav ul li {
   list-style: none;
   color: aliceblue;
   cursor: pointer;
+  transition-duration: 2s;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
 }
 
 #xxx {
