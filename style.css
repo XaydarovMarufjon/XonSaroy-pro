@@ -134,6 +134,10 @@ option {
 }
 .card-food{
   padding: 10px;
+  transition: 1s;
+}
+.card-food:hover .card-food.card-fh3 i{
+  transform: translateX(-20px);
 }
 .card-fh3{
   padding: 20px;
