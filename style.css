@@ -132,12 +132,15 @@ option {
   color: #7E82A3;
   font-size: 0.9rem;
 }
-.card-food{
+.card-foot{
   padding: 10px;
-  transition: 1s;
 }
-.card-food:hover .card-food.card-fh3 i{
-  transform: translateX(-20px);
+.card-foot:hover .card-fh3 i{
+  transform: translateX(10px);
+}
+.card-fh3 i{
+  color: #5c3a6d;
+  transition: 0.5s;
 }
 .card-fh3{
   padding: 20px;
