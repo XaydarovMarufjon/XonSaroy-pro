@@ -10,6 +10,8 @@
   scroll-behavior: smooth !important;
 }
 
+
+
 header {
   background-color: #5c3a6d;
   width: 100%;
@@ -55,11 +57,35 @@ header nav ul li {
   padding: 10px;
 }
 
+.imgsss{
+width: 100%;
+
+
+}
+
+.imgsss img{
+width: 22%;
+margin: 30px 10px 0;
+border-radius: 20px;
+}
+
+.tel{
+  border: none;
+  font-size: 10;
+  background-color: #734a88;
+  color: aliceblue;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
 option {
   background-color: #734a88;
   border: #734a88;
   color: aliceblue;
 }
+
+
 
 .pro-container{
   width: 75%;
@@ -390,4 +416,3 @@ option {
 .font li {
   margin-left: 20px;
 }
->>>>>>> 59a577599395ebe04e81bcea9b330b46387172da
