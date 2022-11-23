@@ -17,7 +17,13 @@ header {
   width: 100%;
   padding: 10px 40px;
 }
+.logo{
+transition: 0.5s;
 
+}
+.logo:hover{
+  transform:scale(0.9);
+}
 
 header nav ul {
   display: flex;
@@ -67,6 +73,7 @@ width: 100%;
 width: 22%;
 margin: 30px 10px 0;
 border-radius: 20px;
+cursor: pointer;
 }
 
 .tel{
@@ -76,6 +83,12 @@ border-radius: 20px;
   color: aliceblue;
   border-radius: 40px;
   padding: 10px;
+  transition: 0.5s;
+}
+
+.tel:hover{
+transform:scale(0.9);
+
 
 }
 
