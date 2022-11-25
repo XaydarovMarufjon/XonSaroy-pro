@@ -71,6 +71,7 @@
         width: 90%;
         margin: 0;
     }
+<<<<<<< HEAD
 
     .yozu {
         width: 100%;
@@ -119,4 +120,16 @@ font-size: unset;
     padding: 60px;
     color: white;
   }
+=======
+    .pro-container{
+        width: 85%;
+    }
+    .card{
+        width: 100%;
+        flex-direction: column;
+    }
+    .pro-h1{
+        margin: 30px 5px;
+    }
+>>>>>>> 68f0237e9c4cad323298a12f4bcff5f0bd55a26c
 }
