@@ -9,7 +9,9 @@
   line-height: 1.5;
   scroll-behavior: smooth !important;
 }
-
+body{
+  color: #020413;
+}
 
 
 header {
@@ -21,12 +23,10 @@ header {
 }
 .logo{
 transition: 0.5s;
-
 }
 .logo:hover{
   transform:scale(0.9);
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -40,14 +40,11 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-
 .ul {
   display: flex;
   justify-content: space-between;
   width: 30%;
 }
-
-
 header nav ul li {
   list-style: none;
   color: aliceblue;
@@ -69,13 +66,11 @@ header nav ul li a{
   border-radius: 40%;
   padding: 10px;
 }
-
 .imgsss{
 width: 100%;
 padding: 100px 0 0 0;
 
 }
-
 .imgsss img{
 width: 22%;
 margin: 30px 10px 0;
@@ -83,7 +78,6 @@ border-radius: 20px;
 cursor: pointer;
 
 }
-
 .tel{
   border: none;
   font-size: 10;
@@ -93,21 +87,14 @@ cursor: pointer;
   padding: 10px;
   transition: 0.5s;
 }
-
 .tel:hover{
 transform:scale(0.9);
-
-
 }
-
 option {
   background-color: #734a88;
   border: #734a88;
   color: aliceblue;
 }
-
-
-
 .pro-container{
   width: 60%;
   margin: 0 auto;
@@ -126,7 +113,7 @@ option {
   margin: 0 auto;
   margin-bottom: 30px;
   border-radius: 20px;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 2px 5px -2px gray;
 }
 .card-img{
   width: 100%;

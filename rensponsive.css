@@ -1,7 +1,7 @@
 @media (min-width: 1281px) {
     /* PC */
 
-    
+
 }
 
 @media (min-width: 1024px) and (max-width:1280px) {
@@ -115,6 +115,14 @@
 
 }
 
+    .pro-container{
+        width: 85%;
+    }
+    .card{
+        width: 46%;
+    }
+
+
 @media (min-width: 481px) and (max-width:767px) {
     /* phone big */
     .container {
@@ -175,10 +183,7 @@
 
 @media (min-width: 320px) and (max-width:480px) {
     /* phone */
-    .container {
-        width: 90%;
-        margin: 0 auto;
-      }
+
     header {
         background-color: #5c3a6d;
         width: 100%;
