@@ -22,10 +22,7 @@
 
 @media (min-width: 320px) and (max-width:480px) {
     /* phone */
-    .container {
-        width: 90%;
-        margin: 0 auto;
-      }
+
     header {
         background-color: #5c3a6d;
         width: 100%;
@@ -71,56 +68,6 @@
         width: 90%;
         margin: 0;
     }
-<<<<<<< HEAD
-
-    .yozu {
-        width: 100%;
-        margin-top: 0px;
-        padding: 0px;
-      }
-
-.p{
-width: 100%;
-font-size: unset;
-}
-
-.ota {
-    flex-direction: column;
-    margin-top: 10px;
-    padding: 10px;
-  }
-  .boglansh h2 {
-    margin-left: 0px;
-    font-size: 34px;
-    font-weight: 450;
-  }
-  .telrqm {
-    flex-direction: column;
-    margin-left: 0px;
-  }
-
-
-
-  .bobo {
-    width: 100%;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    
-  }
-
-
-  .location {
-    width: 100%;
-    height: 100%;
-  }
-  .ijtimoiy {
-    width: 100%;
-    background: #5c3a6d;
-    padding: 60px;
-    color: white;
-  }
-=======
     .pro-container{
         width: 85%;
     }
@@ -131,5 +78,4 @@ font-size: unset;
     .pro-h1{
         margin: 30px 5px;
     }
->>>>>>> 68f0237e9c4cad323298a12f4bcff5f0bd55a26c
 }
