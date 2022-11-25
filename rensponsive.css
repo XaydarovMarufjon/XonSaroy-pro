@@ -68,7 +68,14 @@
         width: 90%;
         margin: 0;
     }
-
-
-
+    .pro-container{
+        width: 85%;
+    }
+    .card{
+        width: 100%;
+        flex-direction: column;
+    }
+    .pro-h1{
+        margin: 30px 5px;
+    }
 }

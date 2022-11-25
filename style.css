@@ -112,22 +112,19 @@ option {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 4px rgba(176, 173, 173, 0.484);
 }
 .card{
   width: 31%;
   margin: 0 auto;
   margin-bottom: 30px;
   border-radius: 20px;
+  box-shadow: 0 4px 2px -2px gray;
 }
 .card-img{
   width: 100%;
   height: 250px;
   border-radius: 15px 15px 0 0;
 }
-/* .card-body{
-  box-shadow: 0 0 5px;
-} */
 .mini-p{
   color: #7E82A3;
   font-size: 0.9rem;
