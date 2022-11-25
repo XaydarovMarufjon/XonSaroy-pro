@@ -1,34 +1,183 @@
 @media (min-width: 1281px) {
     /* PC */
 
+
 }
 
 @media (min-width: 1024px) and (max-width:1280px) {
     /* laptop */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+  header nav {
+    flex-wrap: wrap;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 0px;
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:60px ;
+       
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 40%;
+  }
+
 
 }
 
+
 @media (min-width: 768px) and (max-width: 1023px) {
     /* tablet */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+  header nav {
+    flex-wrap: wrap;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 0px;
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:100px ;
+       
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 50%;
+  }
+
+
+}
+
     .pro-container{
         width: 85%;
     }
     .card{
         width: 46%;
     }
-}
+
 
 @media (min-width: 481px) and (max-width:767px) {
     /* phone big */
-    .pro-container{
-        width: 85%;
+    .container {
+      width: 90%;
+      margin: 0 auto;
     }
-    .projects{
-        flex-direction: column;
-    }
-    .card{
-        width: 100%;
-    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+
+  .ul {
+      width: initial;
+  }
+
+
+  .ul li {
+      display: none;
+
+  }
+
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 10px;
+
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:60px ;
+      
+   
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 80%;
+  }
+
 
 }
 
@@ -38,7 +187,7 @@
     header {
         background-color: #5c3a6d;
         width: 100%;
-        padding: 10px;
+        padding: 10px ;
     }
 
     .ul {
@@ -71,23 +220,64 @@
     .imgsss {
         display: flex;
         flex-direction: row;
-        overflow: hidden;
         width: 100%;
+        overflow-x: scroll;
+        padding-top:60px ;
+        
+     
     }
-
-
+    ::-webkit-scrollbar {
+      background-color: transparent;
+  }
     .imgsss img {
-        width: 90%;
-        margin: 0;
+     width: 80%;
     }
-    .pro-container{
-        width: 85%;
-    }
-    .card{
+
+    .yozu {
         width: 100%;
-        flex-direction: column;
-    }
-    .pro-h1{
-        margin: 30px 5px;
-    }
+        margin-top: 0px;
+        padding: 0px;
+      }
+
+.p{
+width: 100%;
+font-size: unset;
+}
+
+.ota {
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .boglansh h2 {
+    margin-left: 0px;
+    font-size: 34px;
+    font-weight: 450;
+  }
+  .telrqm {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+
+
+  .bobo {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  .location {
+    width: 100%;
+    height: 100%;
+  }
+  .ijtimoiy {
+    width: 100%;
+    background: #5c3a6d;
+    padding: 60px;
+    color: white;
+  }
 }
