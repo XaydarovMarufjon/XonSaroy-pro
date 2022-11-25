@@ -16,6 +16,8 @@ header {
   background-color: #5c3a6d;
   width: 100%;
   padding: 10px 40px;
+  position: fixed;
+  z-index: 1;
 }
 .logo{
 transition: 0.5s;
@@ -79,6 +81,7 @@ width: 22%;
 margin: 30px 10px 0;
 border-radius: 20px;
 cursor: pointer;
+margin: 100px 0 0 0;
 }
 
 .tel{
@@ -352,7 +355,7 @@ option {
 }
 .ariza {
   border-radius: 20px;
-  background-color: rgb(88, 12, 120);
+  background-color: #5c3a6d;
   color: white;
   padding: 17px;
   width: 300px;
