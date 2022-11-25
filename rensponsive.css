@@ -10,13 +10,25 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     /* tablet */
-
-
+    .pro-container{
+        width: 85%;
+    }
+    .card{
+        width: 46%;
+    }
 }
 
 @media (min-width: 481px) and (max-width:767px) {
     /* phone big */
-
+    .pro-container{
+        width: 85%;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
 
 }
 
