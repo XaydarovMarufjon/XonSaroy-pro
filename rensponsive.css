@@ -1,255 +1,238 @@
 @media (min-width: 1281px) {
-    /* PC */
-
-
+  /* PC */
 }
 
-@media (min-width: 1024px) and (max-width:1280px) {
-    /* laptop */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* laptop */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
   header nav {
     flex-wrap: wrap;
   }
-  
+
   .ul {
     display: flex;
     justify-content: space-between;
     width: 60%;
   }
-  
+
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 0px;
+    width: 100px;
+    margin-left: 0px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:60px ;
-       
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
-  .imgsss img {
-   width: 40%;
   }
-
-
+  .imgsss img {
+    width: 40%;
+  }
+  .card {
+    width: 31%;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    /* tablet */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
+  /* tablet */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
   header nav {
     flex-wrap: wrap;
   }
-  
+
   .ul {
     display: flex;
     justify-content: space-between;
     width: 70%;
   }
-  
+
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 0px;
+    width: 100px;
+    margin-left: 0px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:100px ;
-       
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 100px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
-  .imgsss img {
-   width: 50%;
   }
-
-
+  .imgsss img {
+    width: 50%;
+  }
 }
 
-    .pro-container{
-        width: 85%;
-    }
-    .card{
-        width: 46%;
-    }
+.pro-container {
+  width: 85%;
+}
+.card {
+  width: 31%;
+}
 
-
-@media (min-width: 481px) and (max-width:767px) {
-    /* phone big */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
-    .card{
-      width: 98%;
+@media (min-width: 481px) and (max-width: 767px) {
+  /* phone big */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .card {
+    width: 46%;
   }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
 
   .ul {
-      width: initial;
+    width: initial;
   }
 
-
   .ul li {
-      display: none;
-
+    display: none;
   }
 
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 10px;
-
+    width: 100px;
+    margin-left: 10px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:60px ;
-      
-   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
+  }
   .imgsss img {
-   width: 80%;
+    width: 80%;
   }
-
-
 }
 
-@media (min-width: 320px) and (max-width:480px) {
-    /* phone */
-
-    header {
-        background-color: #5c3a6d;
-        width: 100%;
-        padding: 10px ;
-    }
-    .card{
-      width: 100%;
+@media (min-width: 320px) and (max-width: 480px) {
+  /* phone */
+  .container {
+    width: 96%;
   }
-    .ul {
-        width: initial;
-    }
-
-
-    .ul li {
-        display: none;
-
-    }
-
-    #xxx {
-        border: none;
-        outline: none;
-        font-size: 20px;
-        background-color: #734a88;
-        appearance: none;
-        color: aliceblue;
-        border-radius: 40%;
-        padding: 10px;
-    }
-
-    .logo img {
-        width: 100px;
-        margin-left: 10px;
-
-    }
-
-    .imgsss {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        overflow-x: scroll;
-        padding-top:60px ;
-        
-     
-    }
-    ::-webkit-scrollbar {
-      background-color: transparent;
+  header {
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
-    .imgsss img {
-     width: 80%;
-    }
+  .card {
+    width: 100%;
+  }
+  .ul {
+    width: initial;
+  }
 
-    .yozu {
-        width: 100%;
-        margin-top: 0px;
-        padding: 0px;
-      }
+  .ul li {
+    display: none;
+  }
 
-.p{
-width: 100%;
-font-size: unset;
-}
+  #xxx {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
+  }
 
-.ota {
+  .logo img {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .imgsss {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  .imgsss img {
+    width: 80%;
+  }
+
+  .yozu {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .p {
+    width: 100%;
+    font-size: unset;
+  }
+
+  .ota {
     flex-direction: column;
     margin-top: 10px;
     padding: 10px;
@@ -269,7 +252,6 @@ font-size: unset;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    
   }
   .location {
     width: 100%;
@@ -285,23 +267,21 @@ font-size: unset;
   .pro-h1 {
     margin: 10px 0px;
     font-size: 22px;
-   }
+  }
   .mini-h2 {
-  font-size: 1.1rem;
-   }
-   .mini-h3 {
+    font-size: 1.1rem;
+  }
+  .mini-h3 {
     font-size: 1rem;
   }
   .card-fh3 {
     padding: 10px;
     font-size: 1rem;
-} 
-.build {
-  width: 50%;
-  border-radius: 10px;
-  padding: 4px;
-  font-size: 14px;
-}
-
-
+  }
+  .build {
+    width: 50%;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 14px;
+  }
 }
