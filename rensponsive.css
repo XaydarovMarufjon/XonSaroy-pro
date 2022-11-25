@@ -128,6 +128,9 @@
       width: 90%;
       margin: 0 auto;
     }
+    .card{
+      width: 98%;
+  }
   header {
       background-color: #5c3a6d;
       width: 100%;
@@ -185,7 +188,9 @@
         width: 100%;
         padding: 10px ;
     }
-
+    .card{
+      width: 100%;
+  }
     .ul {
         width: initial;
     }
@@ -255,8 +260,6 @@ font-size: unset;
     margin-left: 0px;
   }
 
-
-
   .bobo {
     width: 100%;
     margin-top: 80px;
@@ -264,8 +267,6 @@ font-size: unset;
     flex-direction: column;
     
   }
-
-
   .location {
     width: 100%;
     height: 100%;
@@ -276,4 +277,27 @@ font-size: unset;
     padding: 60px;
     color: white;
   }
+
+  .pro-h1 {
+    margin: 10px 0px;
+    font-size: 22px;
+   }
+  .mini-h2 {
+  font-size: 1.1rem;
+   }
+   .mini-h3 {
+    font-size: 1rem;
+  }
+  .card-fh3 {
+    padding: 10px;
+    font-size: 1rem;
+} 
+.build {
+  width: 50%;
+  border-radius: 10px;
+  padding: 4px;
+  font-size: 14px;
+}
+
+
 }
