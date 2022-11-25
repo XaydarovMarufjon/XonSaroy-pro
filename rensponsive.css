@@ -1,21 +1,174 @@
 @media (min-width: 1281px) {
     /* PC */
 
+    
 }
 
 @media (min-width: 1024px) and (max-width:1280px) {
     /* laptop */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+  header nav {
+    flex-wrap: wrap;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 0px;
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:60px ;
+       
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 40%;
+  }
+
 
 }
 
+
 @media (min-width: 768px) and (max-width: 1023px) {
     /* tablet */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+  header nav {
+    flex-wrap: wrap;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 0px;
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:100px ;
+       
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 50%;
+  }
 
 
 }
 
 @media (min-width: 481px) and (max-width:767px) {
     /* phone big */
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  header {
+      background-color: #5c3a6d;
+      width: 100%;
+      padding: 10px ;
+  }
+
+  .ul {
+      width: initial;
+  }
+
+
+  .ul li {
+      display: none;
+
+  }
+
+  #xxx {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      background-color: #734a88;
+      appearance: none;
+      color: aliceblue;
+      border-radius: 40%;
+      padding: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      margin-left: 10px;
+
+  }
+
+  .imgsss {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow-x: scroll;
+      padding-top:60px ;
+      
+   
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+}
+  .imgsss img {
+   width: 80%;
+  }
 
 
 }
@@ -29,7 +182,7 @@
     header {
         background-color: #5c3a6d;
         width: 100%;
-        padding: 10px;
+        padding: 10px ;
     }
 
     .ul {
@@ -62,16 +215,18 @@
     .imgsss {
         display: flex;
         flex-direction: row;
-        overflow: hidden;
         width: 100%;
+        overflow-x: scroll;
+        padding-top:60px ;
+        
+     
     }
-
-
+    ::-webkit-scrollbar {
+      background-color: transparent;
+  }
     .imgsss img {
-        width: 90%;
-        margin: 0;
+     width: 80%;
     }
-<<<<<<< HEAD
 
     .yozu {
         width: 100%;
@@ -120,16 +275,4 @@ font-size: unset;
     padding: 60px;
     color: white;
   }
-=======
-    .pro-container{
-        width: 85%;
-    }
-    .card{
-        width: 100%;
-        flex-direction: column;
-    }
-    .pro-h1{
-        margin: 30px 5px;
-    }
->>>>>>> 68f0237e9c4cad323298a12f4bcff5f0bd55a26c
 }
