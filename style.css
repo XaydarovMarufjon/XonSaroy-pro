@@ -9,6 +9,9 @@
   line-height: 1.5;
   scroll-behavior: smooth !important;
 }
+
+
+
 header {
   background-color: #5c3a6d;
   width: 100%;
@@ -106,7 +109,7 @@ option {
   margin: 0 auto;
   margin-bottom: 30px;
   border-radius: 20px;
-  box-shadow: 0 4px 2px -2px gray;
+  box-shadow: 0 2px 5px -2px gray;
 }
 .card-img{
   width: 100%;
