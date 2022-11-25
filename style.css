@@ -9,9 +9,7 @@
   line-height: 1.5;
   scroll-behavior: smooth !important;
 }
-body{
-  color: #101229;
-}
+
 
 
 header {
@@ -23,12 +21,10 @@ header {
 }
 .logo{
 transition: 0.5s;
-
 }
 .logo:hover{
   transform:scale(0.9);
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -42,14 +38,11 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-
 .ul {
   display: flex;
   justify-content: space-between;
   width: 30%;
 }
-
-
 header nav ul li {
   list-style: none;
   color: aliceblue;
@@ -71,13 +64,9 @@ header nav ul li a{
   border-radius: 40%;
   padding: 10px;
 }
-
 .imgsss{
 width: 100%;
-
-
 }
-
 .imgsss img{
 width: 22%;
 margin: 30px 10px 0;
@@ -85,7 +74,6 @@ border-radius: 20px;
 cursor: pointer;
 margin: 100px 0 0 0;
 }
-
 .tel{
   border: none;
   font-size: 10;
@@ -95,21 +83,14 @@ margin: 100px 0 0 0;
   padding: 10px;
   transition: 0.5s;
 }
-
 .tel:hover{
 transform:scale(0.9);
-
-
 }
-
 option {
   background-color: #734a88;
   border: #734a88;
   color: aliceblue;
 }
-
-
-
 .pro-container{
   width: 60%;
   margin: 0 auto;
