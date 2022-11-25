@@ -56,7 +56,6 @@
    width: 40%;
   }
 
-
 }
 
 
@@ -177,13 +176,10 @@
   .imgsss img {
    width: 80%;
   }
-
-
 }
 
 @media (min-width: 320px) and (max-width:480px) {
     /* phone */
-
     header {
         background-color: #5c3a6d;
         width: 100%;
