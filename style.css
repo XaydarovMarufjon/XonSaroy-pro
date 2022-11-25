@@ -9,7 +9,9 @@
   line-height: 1.5;
   scroll-behavior: smooth !important;
 }
-
+body{
+  color: #020413;
+}
 
 
 header {
