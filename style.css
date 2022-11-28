@@ -24,13 +24,22 @@ body{
 
 .min-3{
 background-color: rgb(255, 255, 255);
-width: 50%;
+width: 40%;
 border-radius: 20px;
 margin: 20px;
+padding: 10px;
 
 position: relative;
-left: 23%;
+left: 30%;
 top: 20%;
+}
+
+.x{
+position: absolute;
+left: 95%;
+font-size: 30px;
+cursor: pointer;
+
 }
 
 .min-p{
