@@ -13,6 +13,48 @@ body{
   color: #020413;
 }
 
+.abc{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.368);
+  position: fixed;
+  top: 0;
+  opacity:0;
+}
+
+.min-3{
+background-color: rgb(255, 255, 255);
+width: 50%;
+border-radius: 20px;
+margin: 20px;
+
+position: relative;
+left: 23%;
+top: 20%;
+}
+
+.min-p{
+font-size: 29px;
+
+
+}
+
+.telrqm1 {
+  margin-top: 100px;
+  flex-direction: row;
+  text-align: center;
+
+}
+.logo1 {
+  width: 100px;
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+
+
+
+
 
 header {
   background-color: #5c3a6d;
