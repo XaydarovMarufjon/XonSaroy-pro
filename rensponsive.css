@@ -223,9 +223,11 @@
 
   .yozu {
     width: 100%;
-    margin-top: 0px;
-    padding: 0px;
+    padding: 17px;
   }
+  .footer {
+    padding: 20px 0;
+}
 
   .p {
     width: 100%;
@@ -241,10 +243,12 @@
     margin-left: 0px;
     font-size: 34px;
     font-weight: 450;
+    margin-top: 40px;
   }
   .telrqm {
     flex-direction: column;
     margin-left: 0px;
+    margin-top: 40px;
   }
 
   .bobo {
@@ -259,10 +263,45 @@
   }
   .ijtimoiy {
     width: 100%;
-    background: #5c3a6d;
-    padding: 60px;
-    color: white;
   }
+  .logo img {
+    width: 100%;
+    margin-left: 10px;
+}
+.nom {
+  margin-left: 0;
+  text-align: center;
+}
+.email {
+  margin-left: 0;
+  font-size: 17px;
+  text-align: center;
+}
+.adress {
+  margin-left: 0;
+  font-size: 18px;
+  text-align: center;
+}
+.font {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+.font i{
+  text-align: center;
+}
+.font li {
+  font-size: 40px;
+  text-align: center;
+}
+.bobo {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
   .pro-h1 {
     margin: 10px 0px;
