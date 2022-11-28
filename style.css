@@ -148,6 +148,8 @@ option {
 .projects{
   width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .card{
@@ -210,180 +212,58 @@ option {
   margin: 0;
   box-sizing: border-box;
 }
-
-.yozu {
-  margin-top: 20px;
-  padding: 100px;
-}
-
-.container {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.biz {
-  font-size: 34px;
-}
-
-.footer {
-  background: #f5f6fa;
-  width: 100%;
-}
-
 .ota {
   width: 100%;
   display: flex;
   flex-direction: row;
   margin-top: 100px;
 }
-
 .boglansh h2 {
-  margin-left: 210px;
+  margin-left: 410px;
   font-size: 34px;
   font-weight: 400;
 }
-
 .telrqm {
   display: flex;
   flex-direction: column;
-  margin-left: 400px;
-}
-
-.ariza {
-  border-radius: 20px;
-  background-color: rgb(88, 12, 120);
-  color: white;
-  padding: 17px;
-  width: 300px;
-  height: 55px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-top: 20px;
-}
-
-#ism {
-  border-radius: 20px;
-  background: #f5f6fa;
-  padding: 17px;
-  font-weight: 500;
-  width: 300px;
-  height: 55px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-  transition: 2s;
-}
-
-#tel {
+  margin-left: 300px;
   margin-top: 10px;
-  border-radius: 20px;
-  background: #f5f6fa;
-  padding: 17px;
-  width: 300px;
-  height: 55px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
 }
-
-.bobo {
-  width: 100%;
-  margin-top: 80px;
-  display: flex;
-  flex-direction: row;
-}
-
-.logo img {
-  width: 140px;
-  margin-left: 70px;
-}
-
 .location {
   width: 50%;
   height: 100%;
 }
-
-.ijtimoiy {
-  width: 50%;
-  background: #5c3a6d;
-  padding: 60px;
-  color: white;
-}
-
 .nom {
+  margin-left: 215px;
   margin-top: 20px;
-  margin-left: 66px;
   font-weight: 400;
   font-size: 20px;
 }
-
-.email {
-  margin-left: 65px;
-  font-weight: 400;
-  font-size: 20px;
-  margin-top: 5px;
-}
-
-.adress {
-  margin-left: 65px;
-  font-weight: 400;
-  font-size: 17px;
-  margin-top: 5px;
-}
-
 .font {
   list-style: none;
   display: flex;
   flex-direction: row;
   font-size: 30px;
-  margin-left: 45px;
+  margin-left: 195px;
   margin-top: 15px;
 }
-
 .font li {
   margin-left: 20px;
 }
-
-.p {
-  font-size: 20px;
-}
-.yozu {
-  margin-top: 20px;
-  padding: 100px;
-}
-.container {
-  width: 70%;
+.yozu{
+  width: 50%;
   margin: 0 auto;
 }
-.biz {
-  font-size: 34px;
+.p {
+  font-size: 20px;
 }
 .footer {
   background: #f5f6fa;
   width: 100%;
-}
-.ota {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 100px;
-}
-.boglansh h2 {
-  margin-left: 210px;
-  font-size: 34px;
-  font-weight: 400;
-}
-.telrqm {
-  display: flex;
-  flex-direction: column;
-  margin-left: 400px;
+  padding: 40px 0;
 }
 .ariza {
-  border-radius: 20px;
+  border-radius: 19px;
   background-color: #5c3a6d;
   color: white;
   padding: 17px;
@@ -394,31 +274,45 @@ option {
   font-size: 14px;
   text-transform: uppercase;
   margin-top: 20px;
+  transition: 0.2s;
 }
-#ism {
-  border-radius: 20px;
-  background: #f5f6fa;
-  padding: 17px;
-  font-weight: 500;
-  width: 300px;
-  height: 55px;
-  border: none;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-  transition: 2s;
+.ariza:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px #62477655;
 }
 #tel {
   margin-top: 10px;
   border-radius: 20px;
   background: #f5f6fa;
+  font-weight: 400;
   padding: 17px;
   width: 300px;
   height: 55px;
   border: none;
   margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 17px;
+  border: 2px solid transparent;
+}
+#tel:hover{
+  border: 2px solid #93b0c458;
+}
+#ism:hover{
+  border: 2px solid #93b0c458;
+}
+::placeholder{
+  color: black;
+}
+#ism {
+  border-radius: 20px;
+  background: #f5f6fa;
+  padding: 17px;
+  font-weight: 400;
+  width: 300px;
+  height: 55px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 17px;
+  border: 2px solid transparent;
 }
 .bobo {
   width: 100%;
@@ -428,12 +322,8 @@ option {
   position:relative; 
 }
 .logo img {
-  width: 140px;
-  margin-left: 70px;
-}
-.location {
-  width: 50%;
-  height: 100%;
+  width: 160px;
+  margin-left: 220px;
 }
 .ijtimoiy {
   width: 50%;
@@ -441,32 +331,14 @@ option {
   padding: 60px;
   color: white;
 }
-.nom {
-  margin-top: 20px;
-  margin-left: 66px;
-  font-weight: 400;
-  font-size: 20px;
-}
 .email {
-  margin-left: 65px;
+  margin-left: 215px;
   font-weight: 400;
   font-size: 20px;
-  margin-top: 5px;
 }
 .adress {
-  margin-left: 65px;
+  margin-left: 215px;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 19px;
   margin-top: 5px;
-}
-.font {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  margin-left: 45px;
-  margin-top: 15px;
-}
-.font li {
-  margin-left: 20px;
 }

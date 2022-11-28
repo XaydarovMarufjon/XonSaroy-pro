@@ -1,250 +1,240 @@
 @media (min-width: 1281px) {
-    /* PC */
-
-
+  /* PC */
 }
 
-@media (min-width: 1024px) and (max-width:1280px) {
-    /* laptop */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* laptop */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
   header nav {
     flex-wrap: wrap;
   }
-  
+
   .ul {
     display: flex;
     justify-content: space-between;
     width: 60%;
   }
-  
+
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 0px;
+    width: 100px;
+    margin-left: 0px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:60px ;
-       
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
-  .imgsss img {
-   width: 40%;
   }
-
-
+  .imgsss img {
+    width: 40%;
+  }
+  .card {
+    width: 31%;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    /* tablet */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
+  /* tablet */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
   header nav {
     flex-wrap: wrap;
   }
-  
+
   .ul {
     display: flex;
     justify-content: space-between;
     width: 70%;
   }
-  
+
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 0px;
+    width: 100px;
+    margin-left: 0px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:100px ;
-       
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 100px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
-  .imgsss img {
-   width: 50%;
   }
-
-
+  .imgsss img {
+    width: 50%;
+  }
 }
 
-    .pro-container{
-        width: 85%;
-    }
-    .card{
-        width: 46%;
-    }
+.pro-container {
+  width: 85%;
+}
+.card {
+  width: 31%;
+}
 
-
-@media (min-width: 481px) and (max-width:767px) {
-    /* phone big */
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
+@media (min-width: 481px) and (max-width: 767px) {
+  /* phone big */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .card {
+    width: 46%;
+  }
   header {
-      background-color: #5c3a6d;
-      width: 100%;
-      padding: 10px ;
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
   }
 
   .ul {
-      width: initial;
+    width: initial;
   }
 
-
   .ul li {
-      display: none;
-
+    display: none;
   }
 
   #xxx {
-      border: none;
-      outline: none;
-      font-size: 20px;
-      background-color: #734a88;
-      appearance: none;
-      color: aliceblue;
-      border-radius: 40%;
-      padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
   }
 
   .logo img {
-      width: 100px;
-      margin-left: 10px;
-
+    width: 100px;
+    margin-left: 10px;
   }
 
   .imgsss {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      overflow-x: scroll;
-      padding-top:60px ;
-      
-   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
   }
   ::-webkit-scrollbar {
     background-color: transparent;
-}
+  }
   .imgsss img {
-   width: 80%;
+    width: 80%;
   }
-
-
 }
 
-@media (min-width: 320px) and (max-width:480px) {
-    /* phone */
-
-    header {
-        background-color: #5c3a6d;
-        width: 100%;
-        padding: 10px ;
-    }
-
-    .ul {
-        width: initial;
-    }
-
-
-    .ul li {
-        display: none;
-
-    }
-
-    #xxx {
-        border: none;
-        outline: none;
-        font-size: 20px;
-        background-color: #734a88;
-        appearance: none;
-        color: aliceblue;
-        border-radius: 40%;
-        padding: 10px;
-    }
-
-    .logo img {
-        width: 100px;
-        margin-left: 10px;
-
-    }
-
-    .imgsss {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        overflow-x: scroll;
-        padding-top:60px ;
-        
-     
-    }
-    ::-webkit-scrollbar {
-      background-color: transparent;
+@media (min-width: 320px) and (max-width: 480px) {
+  /* phone */
+  .container {
+    width: 96%;
   }
-    .imgsss img {
-     width: 80%;
-    }
+  header {
+    background-color: #5c3a6d;
+    width: 100%;
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+  .ul {
+    width: initial;
+  }
 
-    .yozu {
-        width: 100%;
-        margin-top: 0px;
-        padding: 0px;
-      }
+  .ul li {
+    display: none;
+  }
 
-.p{
-width: 100%;
-font-size: unset;
+  #xxx {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #734a88;
+    appearance: none;
+    color: aliceblue;
+    border-radius: 40%;
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .imgsss {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    padding-top: 60px;
+  }
+  ::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  .imgsss img {
+    width: 80%;
+  }
+
+  .yozu {
+    width: 100%;
+    padding: 17px;
+  }
+  .footer {
+    padding: 20px 0;
 }
 
-.ota {
+  .p {
+    width: 100%;
+    font-size: unset;
+  }
+
+  .ota {
     flex-direction: column;
     margin-top: 10px;
     padding: 10px;
@@ -253,31 +243,84 @@ font-size: unset;
     margin-left: 0px;
     font-size: 34px;
     font-weight: 450;
+    margin-top: 40px;
   }
   .telrqm {
     flex-direction: column;
     margin-left: 0px;
+    margin-top: 40px;
   }
-
-
 
   .bobo {
     width: 100%;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    
   }
-
-
   .location {
     width: 100%;
     height: 100%;
   }
   .ijtimoiy {
     width: 100%;
-    background: #5c3a6d;
-    padding: 60px;
-    color: white;
+  }
+  .logo img {
+    width: 100%;
+    margin-left: 10px;
+}
+.nom {
+  margin-left: 0;
+  text-align: center;
+}
+.email {
+  margin-left: 0;
+  font-size: 17px;
+  text-align: center;
+}
+.adress {
+  margin-left: 0;
+  font-size: 18px;
+  text-align: center;
+}
+.font {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+.font i{
+  text-align: center;
+}
+.font li {
+  font-size: 40px;
+  text-align: center;
+}
+.bobo {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  .pro-h1 {
+    margin: 10px 0px;
+    font-size: 22px;
+  }
+  .mini-h2 {
+    font-size: 1.1rem;
+  }
+  .mini-h3 {
+    font-size: 1rem;
+  }
+  .card-fh3 {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .build {
+    width: 50%;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 14px;
   }
 }
