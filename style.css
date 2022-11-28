@@ -173,18 +173,26 @@ option {
   width: 100%;
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+}
+.biz{
+  font-size: 34px;
+}
+.boglansh{
+  margin-left: 220px;
+  padding: 60px 0;
 }
 .boglansh h2 {
-  margin-left: 410px;
   font-size: 34px;
   font-weight: 400;
 }
 .telrqm {
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
+  justify-content: space-between;
   margin-top: 10px;
+  align-items: center;
+  margin-left: 180px;
+  padding: 60px 0 0 0;
 }
 .location {
   width: 50%;
@@ -212,12 +220,12 @@ option {
   margin: 0 auto;
 }
 .p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer {
   background: #f5f6fa;
   width: 100%;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .ariza {
   border-radius: 19px;
@@ -273,7 +281,7 @@ option {
 }
 .bobo {
   width: 100%;
-  margin-top: 80px;
+  padding: 50px 0 0 0;
   display: flex;
   flex-direction: row;
   position:relative; 
