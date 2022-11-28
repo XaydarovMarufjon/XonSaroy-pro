@@ -1,5 +1,9 @@
 @media (min-width: 1281px) {
   /* PC */
+
+
+
+  
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
@@ -39,13 +43,13 @@
     margin-left: 0px;
   }
 
-  /* .imgsss {
+  .imgsss {
     display: flex;
     flex-direction: row;
     width: 100%;
     overflow-x: scroll;
     padding-top: 60px;
-  } */
+  }
   ::-webkit-scrollbar {
     background-color: transparent;
   }
@@ -93,19 +97,19 @@
     width: 100px;
     margin-left: 0px;
   }
-/* 
+
   .imgsss {
     display: flex;
     flex-direction: row;
     width: 100%;
     overflow-x: scroll;
     padding-top: 100px;
-  } */
+  }
   ::-webkit-scrollbar {
     background-color: transparent;
   }
   .imgsss img {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -155,19 +159,19 @@
     margin-left: 10px;
   }
 
-  /* .imgsss {
+  .imgsss {
     display: flex;
     flex-direction: row;
     width: 100%;
     overflow-x: scroll;
     padding-top: 60px;
-  } */
+  }
   ::-webkit-scrollbar {
     background-color: transparent;
   }
-  /* .imgsss img {
+  .imgsss img {
     width: 80%;
-  } */
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
