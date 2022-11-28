@@ -214,9 +214,9 @@
     overflow: scroll;
     padding-top: 60px;
   }
-  /* ::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     background-color: transparent;
-  } */
+  }
   .imgsss img {
     width: 80%;
   }

@@ -5,7 +5,8 @@ setTimeout(() => {
 
 
 abc.style.cssText=`
-opacity: 1;
+display: block;
+
 `
 
 }, 180000);
@@ -15,7 +16,8 @@ function closekglkgf() {
 // let close = document.querySelector(".x")
 
 abc.style.cssText=`
-opacity: 0;
+display: none;
+
 `
 
 

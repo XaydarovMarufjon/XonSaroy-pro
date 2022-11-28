@@ -19,7 +19,7 @@ body{
   background-color: rgba(0, 0, 0, 0.368);
   position: fixed;
   top: 0;
-  opacity:0;
+  display: none;
 }
 
 .min-3{
