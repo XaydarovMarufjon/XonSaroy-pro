@@ -8,7 +8,7 @@ abc.style.cssText=`
 opacity: 1;
 `
 
-}, 1000);
+}, 180000);
 
 
 function closekglkgf() {
