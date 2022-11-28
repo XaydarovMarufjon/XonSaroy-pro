@@ -216,13 +216,11 @@ option {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding: 60px 0;
+  padding-left: 200px;
 }
 .biz{
   font-size: 34px;
-}
-.boglansh{
-  margin-left: 220px;
-  padding: 60px 0;
 }
 .boglansh h2 {
   font-size: 34px;
@@ -235,7 +233,6 @@ option {
   margin-top: 10px;
   align-items: center;
   margin-left: 180px;
-  padding: 60px 0 0 0;
 }
 .location {
   width: 50%;
@@ -324,7 +321,6 @@ option {
 }
 .bobo {
   width: 100%;
-  padding: 50px 0 0 0;
   display: flex;
   flex-direction: row;
   position:relative; 
